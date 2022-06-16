@@ -75,6 +75,18 @@ body {
 }
 
 
-
-
+button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: firebrick;
+    color: white;
+    border: 1px solid firebrick;
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    position: absolute;
+    bottom: 140px;
+    left: 520px;
+    cursor: pointer;
+    font-size: 14px;
+}
 

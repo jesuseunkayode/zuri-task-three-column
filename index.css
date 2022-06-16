@@ -141,6 +141,18 @@ button {
 }
 
 
+.grid {
+    background-color:hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%); 
+    border: 1px solid hsl(0, 0%, 95%);
+    position: absolute;
+    bottom: 150px;
+    left: 580px;
+    cursor: pointer;
+}
+
+
+
 
 
 
