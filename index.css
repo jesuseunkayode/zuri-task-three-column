@@ -91,17 +91,42 @@ button {
      font-weight: 700;
 }
 
+
+
 .luxury-button {
     color: hsl(179, 100%, 13%);
 }
+
+.luxury-button:active {
+    background-color:hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%); 
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+
 
 .suv-button {
     color: hsl(184, 100%, 22%);
 }
 
+.suv-button:active {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%); 
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+
 .sedan-button {
     color: hsl(31, 77%, 52%);
 }
+
+
+.sedan-button:active {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%); 
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
 
 @media (max-width: 375px) {
     #choose-cars {
@@ -109,14 +134,14 @@ button {
     }
 
     #sedan-cars {
-        width: 60%;
+        width: 70%;
     }
 
     #suv-cars {
-        width: 60%;
+        width: 70%;
     }
 
     #luxury-cars {
-        width: 60%;
+        width: 70%;
     }
 }
