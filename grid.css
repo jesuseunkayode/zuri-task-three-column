@@ -11,64 +11,69 @@ body {
 
 #grid-container {
    display: grid;
-   gap: 5px;
-   height: 250px;
-   grid-template-columns: 150px 60px 100px;
-   grid-template-rows: 130px 50px 50px;
-   justify-content: center;
    align-content: center;
+   justify-content: center;
+   gap: 5px;
+   height: 650px;
+   padding: 50px;
+   grid-template-columns: 150px 60px 100px;
+   grid-template-rows: 130px 60px 60px;
+   
 }
 
 
 .box1 {
-    background-color: aquamarine;
+    background-color: firebrick;
     grid-column: 1 / 3;
-    
+    padding-top: 50px;
+    padding-left: 100px;
+    color: white;
+    font-size: 20px;
 }
 
 
 .box2 {
     background-color: firebrick;
+    width: 150%;
+    padding-top: 50px;
+    padding-left: 50px;
+    color: white;
+    font-size: 20px;
 }
 
 
 
 .box3 {
-    background-color: blueviolet;
+    background-color: firebrick;
     grid-row: 2 / 4;
+    padding-top: 50px;
+    padding-left: 80px;
+    color: white;
+    font-size: 20px;
 }
 
 
 .box4 {
-    background-color: yellowgreen;
+    background-color: firebrick;
     grid-column: 2 / 4;
+    width: 130%;
+    padding-top: 20px;
+    padding-left: 100px;
+    color: white;
+    font-size: 20px;
 }
-
 
 
 .box5 {
-    background-color: orange;
-    text-align: center;
+    background-color: firebrick;
+    grid-column: 2 / 4;
+    width: 130%;
+    padding-top: 20px;
+    padding-left: 100px;
+    color: white;
+    font-size: 20px;
 }
 
-/*
-.box6 {
-    background-color: palevioletred;
-    text-align: center;
-    grid-area: box6;
-}
-
-
-.box7 {
-    background-color: teal;
-    text-align: center;
-    grid-area: box7;
-}
-
-.box8 {
-    background-color: cornflowerblue;
-    
-}
 
 
 
