@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+#choose-cars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+#sedan-cars {
+    font-size: 12px;
+    height: 320px;
+    width: 16%;
+    line-height: 20px;
+    padding: 18px 20px 25px 20px;
+    border: 1px solid hsl(31, 77%, 52%);
+    text-align: left;
+    background-color: hsl(31, 77%, 52%);
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+
+#suv-cars {
+    font-size: 12px;
+    height: 320px;
+    width: 16%;
+    line-height: 20px;
+    padding: 18px 20px 25px 20px;
+    border: 1px solid hsl(184, 100%, 22%);
+    text-align: left;
+    background-color: hsl(184, 100%, 22%);
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+
+#luxury-cars{
+    font-size: 12px;
+    height: 320px;
+    width: 16%;
+    line-height: 20px;
+    padding: 18px 20px 25px 20px;
+    border: 1px solid hsl(179, 100%, 13%);
+    text-align: left;
+    background-color: hsl(179, 100%, 13%);
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+img {
+    margin: 5px 5px;
+    max-width: 25%;
+    height: auto;
+}
+
+
+
+h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 0 20px 0;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+     border-radius: 15px;
+     padding: 10px 17px 10px 18px;
+     border: none;
+     outline: none;
+     background-color: hsl(0, 0%, 95%);
+     color: hsl(179, 100%, 13%);
+     font-size: 10px;
+     margin-top: 45px;
+     font-weight: 700;
+}
+
+.luxury-button {
+    color: hsl(179, 100%, 13%);
+}
+
+.suv-button {
+    color: hsl(184, 100%, 22%);
+}
+
+.sedan-button {
+    color: hsl(31, 77%, 52%);
+}
+
+@media (max-width: 375px) {
+    #choose-cars {
+        flex-direction: column;
+    }
+
+    #sedan-cars {
+        width: 60%;
+    }
+
+    #suv-cars {
+        width: 60%;
+    }
+
+    #luxury-cars {
+        width: 60%;
+    }
+}
